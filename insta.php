@@ -42,7 +42,7 @@ if($text1=="/start"){
 		
 			
 				else{
-		$instalink="http://down-roid.ir/vip8.php?url=$text1";
+		$instalink="http://eletest.teleagent.ir/insta/?url=$text1";
 		$insta=json_decode(file_get_contents($instalink),trur);
 		$ok=$insta['ok'];
 		$photo=$insta['aks'];
